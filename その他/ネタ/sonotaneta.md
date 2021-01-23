@@ -1,0 +1,1 @@
+﻿<img width=200 src="eラーニング.jpg">「eラーニング」 <img width=200 src="コロナ.jpg">「コロナ」 <img width=200 src="ゴイアニア被曝事故.jpg">「ゴイアニア被曝事故」 <img width=200 src="中途採用.jpg">「中途採用」 <img width=200 src="事務員.jpg">「事務員」 <img width=200 src="入社前入社後.jpg">「入社前入社後」 <img width=200 src="現場.jpg">「現場」 <img width=200 src="現場2.jpg">「現場2」 <img width=200 src="現場3.jpg">「現場3」 <img width=200 src="電話.jpg">「電話」 
