@@ -1,1 +1,0 @@
-﻿<img width=250 src=./figs/main.png>「main」 <img width=250 src=./figs/ご安全に.png>「ご安全に」 <img width=250 src=./figs/メス.jpg>「メス」 <img width=250 src=./figs/照れる.jpg>「照れる」 

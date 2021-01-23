@@ -1,1 +1,0 @@
-﻿<img width=250 src=./figs/腰.jpg>「腰」 

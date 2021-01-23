@@ -1,1 +1,0 @@
-﻿<img width=300 src=./figs/消防士.jpg>「消防士」 

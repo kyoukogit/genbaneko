@@ -1,1 +1,0 @@
-﻿<img width=250 src=./figs/チェック.jpeg>「チェック」 <img width=250 src=./figs/愚痴.jpg>「愚痴」 

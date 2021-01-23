@@ -1,1 +1,0 @@
-﻿<img width=200 src="update.ps1 - ショートカット.lnk">「update.ps1 - ショートカット」 
