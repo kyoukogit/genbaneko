@@ -32,7 +32,7 @@ foreach ($o in $outputarr) {
     $daimei= [System.IO.Path]::GetFileNameWithoutExtension($caption);
     
    
-    Write-Output "`<img width="200" src=$o`>" | Out-File -Append $mdfile -Encoding utf8 -NoNewline
+    Write-Output "`<img width="300" src=$o`>" | Out-File -Append $mdfile -Encoding utf8 -NoNewline
     Write-Output 「$daimei」| Out-File -Append $mdfile -Encoding utf8 -NoNewline
     Write-Output " " | Out-File -Append $mdfile -Encoding utf8 -NoNewline
 }
