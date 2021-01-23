@@ -1,1 +1,1 @@
-﻿<img width=200 src="腰.jpg">「腰」 
+﻿<img width=250 src=./figs/腰.jpg>「腰」 

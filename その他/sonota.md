@@ -1,1 +1,1 @@
-﻿<img width=200 src="消防士.jpg">「消防士」 
+﻿<img width=300 src=./figs/消防士.jpg>「消防士」 

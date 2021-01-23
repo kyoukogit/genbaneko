@@ -1,14 +1,14 @@
 ﻿Param(
     [String]$mdfile="shigotoneko.md"
 )
-$imgList =  Get-ChildItem  -exclude *.md, *.ps1* | Where-Object { ! $_.PSIsContainer }
+$imgList =  Get-ChildItem -LiteralPath ./figs -exclude *.md, *.ps1* | Where-Object { ! $_.PSIsContainer }
 
 $Flag=1
 $outputarr=@()
 $f = (Get-Content $mdfile) -as [string[]]
 
 foreach ($img in $imgList) {
-    [String] $imgname="`""+[System.IO.Path]::GetFileName($img) + "`""
+    [String] $imgname="./figs/"+[System.IO.Path]::GetFileName($img)
     
     foreach ($l in $f) {
         $arr=$l -split "=" -split ">"
@@ -27,12 +27,10 @@ foreach ($img in $imgList) {
 }
 
 foreach ($o in $outputarr) {
-    $ca=$o -split "`"" 
-    $caption=$ca[1]
-    $daimei= [System.IO.Path]::GetFileNameWithoutExtension($caption);
+    $daimei= [System.IO.Path]::GetFileNameWithoutExtension($o);
     
    
-    Write-Output "`<img width="200" src=$o`>" | Out-File -Append $mdfile -Encoding utf8 -NoNewline
+    Write-Output "`<img width="250" src=$o>" | Out-File -Append $mdfile -Encoding utf8 -NoNewline
     Write-Output 「$daimei」| Out-File -Append $mdfile -Encoding utf8 -NoNewline
     Write-Output " " | Out-File -Append $mdfile -Encoding utf8 -NoNewline
 }
